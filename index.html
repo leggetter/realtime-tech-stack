@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A 10 Minute Guide to Choosing a Realtime Framework</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <link rel="stylesheet" href="./themes/pusher-default/theme.css" />
+</head>
+<body>
+  <textarea id="source">
+    
+    name: lblue
+    layout: true
+    
+    class: bg-light, center, middle
+    
+    ---
+    
+    name: dblue
+    layout: true
+    
+    class: bg-dark, center, middle
+    
+    ---
+    
+    template: dblue
+    class: title, h1-big, pinkie-list
+    
+    # A 10 Minute Guide to Choosing a Realtime Framework
+    
+    * Phil @leggetter
+    * Head of Evangelism
+    * Pusher
+    
+    ???
+    
+    * 15 years - realtime tech
+    * before probably all solutions existed
+    * so many frameworks = difficult to choose
+    
+    ---
+    
+    template: dblue
+    class: title, h1-big
+    
+    ![](./themes/pusher-default/img/pusher-logos/pusher-slogan-dark.png)
+    
+    ???
+    
+    * Our logo
+    * Interested in realtime?
+    * Come by our booth
+    * Love to hear what you're building
+    
+    ---
+    
+    template: dblue
+    class: h1-big
+    
+    # What is Realtime?
+    
+    ???
+    
+    * No real time for detail
+    * But a bit of background
+    
+    ---
+    
+    template: dblue
+    class: em-text, h1-big
+    background-image: url(img/warp-core.gif)
+    
+    # Hard Realtime
+    
+    ???
+    
+    * Real-time in Web Apps
+    * Different to realtime in other systems
+    * Not "hard" real-time
+    * e.g. USS Enterprise warp core safety system
+    
+    ---
+    
+    template: dblue
+    class: bg-contain
+    background-image: url(img/core-breach.gif)
+    
+    ???
+    
+    * Failure to deliver = critical
+    * Maybe the Enterprise was using a .NET solution
+    
+    ---
+    
+    layout: false
+    class: center, middle, em-text, bg-cover, h1-big
+    background-image: url(img/soft-realtime.gif)
+    
+    # Soft Realtime
+    
+    ???
+    
+    * Gone main stream - usage in social media
+    * Technology now provides benefit outside of finance
+    * Technology improvements
+      * Browsers
+      * Choice of solutions
+      * Easier to use solutions
+    * Quickly show some example use cases
+    
+    ---
+    
+    template: dblue
+    class: em-text, bg-cover
+    background-image: url(img/itv-news-may-2014.png)
+    
+    # Notifications & Signalling
+    
+    ???
+    
+    * Something has happened
+    * Changed
+    * Alert - do something
+    
+    ---
+    
+    class: center, bg-cover, em-text
+    background-image: url(/img/delighted-app.gif)
+    
+    # Activity Streams
+    
+    ???
+    
+    * a stream of activity
+    * things have - and are - happening
+    * synonymous with social apps
+      * Twitter
+      * Facebook
+      * Google+
+      * News
+      * Sports
+    
+    ---
+    
+    template: dblue
+    
+    class: bg-contain, em-text
+    background-image: url(/img/senate-election-results.png)
+    
+    # Data Visualizations
+    
+    ---
+    
+    template: lblue
+    
+    # Chat
+    
+    ???
+    
+    * The 101 of realtime
+    * An interactive experience
+    * Real-time matters
+    
+    ---
+    
+    template: lblue
+    
+    # Second Screen Experiences
+    
+    ???
+    
+    * Sometimes called companion apps
+    * Watch TV with device
+    * Interact with others watching same thing
+    * Synchronised with content
+    
+    ---
+    
+    template: lblue
+    
+    # Live Geolocation Tracking
+    
+    ???
+    
+    * Where is stuff
+    * Realtime on a map
+    
+    ---
+    
+    template: lblue
+    
+    # Multi-User Collaboration
+    
+    ???
+    
+    * Google Apps
+    * Cloud 9
+    * TODO: other
+    
+    ---
+    
+    template: lblue
+    class: bg-cover, pinkie
+    background-image: url(img/quizup.png)
+    
+    # Multiplayer Games
+    
+    ---
+    
+    template: dblue
+    
+    class: h2-big
+    background-image: url(/themes/pusher-default/img/code-back.jpg)
+    
+    ## You want this functionality.
+    ## <span class="pinkie">But, how do you choose a Realtime Framework?</span>
+    
+    ---
+    
+    template: lblue
+    class: h1-big
+    
+    # Use Socket.IO, right?
+    
+    ---
+    
+    template: lblue
+    class: bg-cover
+    background-image: url(/img/maybee.gif)
+    
+    ## If it fits your requirements...
+    
+    ---
+    
+    template: lblue
+    class: h1-big, bg-cover, em-text
+    background-image: url(/img/falkirk-wheel.gif)
+    
+    # 1. Use an existing solution
+    
+    ## Don't reinvent the wheel
+    
+    <small>Unless you've a unique use case</small>
+    
+    ---
+    
+    template: lblue
+    
+    ## Why use an existing solution?
+    
+    * Fallback/upgrade hacks still required
+    * Support/Community
+    * Maintenance
+    * Future features
+    * Scaling
+    
+    ---
+    
+    class: bg-white, bg-cover
+    
+    background-image: url(img/realtime-web-solutions-updated.png)
+    
+    ---
+    
+    class: center, middle, h1-big, bg-cover, em-text
+    background-image: url(img/choose-a-lang.gif)
+    
+    # 2. Use languages you're comfortable with
+    
+    ---
+    
+    template: lblue
+    class: pinkie-bold
+    
+    ## Solutions by language
+    
+    * **Java**: Netty, Jetty
+    * **JavaScript (Node.JS)**: Faye, Socket.IO (Engine.IO), Primus.io
+    * **.NET (C#)**: SignalR, XSockets
+    * **Python**: Lots of options built on Tornado
+    * **PHP**: Erm... ReactPHP... Ratchet
+    * **Ruby**: Faye
+    * *Language agnostic*: most hosted services
+    
+    ---
+    
+    template: dblue
+    class: h1-big
+    
+    # 3. Native Mobile Support?
+    
+    ---
+    
+    template: lblue
+    
+    ## Native Mobile Support?
+    
+    * Only some have mobile clients
+    * How much data are you sending?
+    * SSL required on 3/4G networks
+    * HTTP fallback required?
+    
+    ---
+    
+    template: lblue
+
+    ## Solutions with Native Mobile Clients
+    
+    * Faye
+    * Firebase
+    * Hydna
+    * PubNub
+    * Pusher
+    * Realtime
+    * SignalR
+    * Socket.IO
+    
+    ---
+    
+    template: dblue
+    class: h1-big
+    
+    # 4. Understand your App's Functionality
+    
+    ---
+    
+    template: lblue
+    
+    ## 4. Understand your App's Functionality
+    
+    * Information Architecture a.k.a Data
+    * Interaction Complexity:
+      * How users will interact with your app
+      * Client <-> Server interactions
+    * Understand the type of functionality you need...
+    
+    ???
+    
+    * Going back to the 4 data paradigms:
+    * Do you want a few simple streams of data - onMessage
+    * Are there multiple streams where the app chops and changes the information it wants - PubSub
+    * Do you need bi-directional communication?
+    * Are you effectively manipulating a share data structure - sync
+    * Or are you trying to provide access to server functionality in a more elegant way - RMI
+
+    ---
+    
+    template: lblue
+    class: left-content
+    
+    ## onMessage
+    
+    ```js
+    // client
+    
+    var sock = new SockJS( 'http://localhost:9999/sockjs' );
+    
+    sock.onmessage = function( e ) {
+      console.log( 'message', e.data );
+    };
+    ```
+    
+    ```js
+    // server
+    
+    sock.write( 'hello SockJS' );
+    ```
+    
+    ---
+    
+    template: lblue
+    class: left-content
+    
+    ## PubSub
+    
+    ```js
+    // client
+    
+    var client = new FayeClient();
+    
+    client.subscribe( 'fwdjs-tweets', function( tweet ) {
+      // Handle Update
+    } );
+    ```
+    
+    ```js
+    // server
+    
+    var tweet = {
+      text: '#ForwardJS rocks!',
+      user_name: '@leggetter'
+    }
+    Faye.publish( 'fwdjs-tweets', tweet );
+    ```
+    
+    ---
+    
+    template: lblue
+    class: left-content
+    
+    ## Evented PubSub
+  
+    ```js
+    // client
+    
+    var pusher = new Pusher( APP_KEY );
+    
+    var channel = pusher.subscribe( 'fwdjs-tweets' );
+    
+    channel.bind( 'new_tweet', function( tweet ) {
+      // Handle Update
+    } );
+    
+    channel.bind( 'tweet_updated', function( tweet ) {} );
+    
+    channel.bind( 'tweet_deleted', function( tweet ) {} );
+    ```
+    
+    ```js
+    // server
+    
+    var tweet = {
+      text: '#ForwardJS rocks!',
+      user_name: '@leggetter'
+    }
+    pusher.trigger( 'fwdjs-tweets', 'new_tweet', tweet );
+    ```
+    
+    ---
+    
+    template: lblue
+    class: left-content
+    
+    ## Data Sync
+    
+    ```js
+    var myDataRef = new Firebase('https://yo.firebaseio.com/');
+    
+    myDataRef.push( {name: '@leggetter', text: 'Yo!'} );
+    
+    myDataRef.on( 'child_added', function(snapshot) {
+      // Data added
+    });
+    
+    myDataRef.on( 'child_changed', function(snapshot) {
+      // Data has changed
+    });
+    
+    myDataRef.on( 'child_removed', function(snapshot) {
+      // Data removed
+    });
+    ```
+    
+    ???
+    
+    * Manipulating collection of data
+    * Not dealing with Messages
+
+    ---
+    
+    template: lblue
+    class: left-content
+    
+    ## RMI
+    
+    ```js
+    // client
+    
+    $.connection.hub.start(); // async
+    
+    var chat = $.connection.chatHub;
+    
+    chat.client.broadcastMessage = function (name, message) {
+      // handle message
+    };
+    
+    chat.server.send( 'me', 'hello world' );
+    ```
+    
+    ```csharp
+    // server
+    
+    public class ChatHub : Hub
+    {
+      public void Send(string name, string message)
+      {
+        // Call the broadcastMessage method to update clients.
+        Clients.All.broadcastMessage(name, message);
+      }
+    }
+    ```
+
+    ---
+    
+    template: lblue
+    background-image: url(img/rtw-tech-decision-matrix-white.png)
+    
+    ---
+    
+    template: lblue
+    background-image: url(https://docs.google.com/drawings/d/1R-cj5G0VTsViIRACMFU6uZKJDr3rhyy1H1uO1OjvhX4/pub?w=1440&amp;h=1080)
+    
+    ???
+    
+    * ITV News - PubSub
+    * Man City - PubSub
+    * Google Analytics: Realtime - Data Sync
+    * Cloud 9 - Data Sync
+    * FourSquare
+    * Caplin Trader - PubSub
+    * Chat - JabbR - Uses RMI - feels like it should be PubSub
+    * Google Docs - Data Sync
+    * Murally - Uses PubSub - feels like it should be Data Sync
+      
+    ---
+    
+    template: lblue
+    background-image: url(https://docs.google.com/drawings/d/1iah1VmHezlPOW6tnNTf5HB_0GZl2LC09M5_7pRu_beM/pub?w=1440&amp;h=1080)
+
+
+    ???
+      
+    * SockJS - focus on simple connections
+    * Some solutions offer PubSub and data sync
+    * Dropbox - offer simple DataStore API
+    * Only know a few RMI options
+    * New solutions: Meteor, DerbyJS, SailsJS - maybe a new category for these?
+    
+    ---
+    
+    template: dblue
+    class: h1-big
+    
+    # 5. Where are you in Development?
+    
+    ---
+    
+    template: lblue
+    class: block
+    
+    # You already have an app
+        
+    * How to integrate:
+      * Self-hosted
+      * Hosted
+
+    ---
+    
+    template: lblue
+    class: fill-img
+    
+    ### Self Hosted <small>(Tightly Coupled)</small>
+    
+    ![](./img/realtime-web-stack-tight-integration-self-hosted.png)
+    
+    ???
+
+    * Less initial overhead - quick Integration
+    * As project grows complexity increases
+    * Updating request/response cycle may impact realtime functionality and vise-versa
+    * Likely that the web server is handling load of both standard HTTP and realtime i.e. WebSocket, Server-Sent Events, HTTP fallbacks
+    
+    ---
+    
+    template: lblue
+    class: fill-img
+    
+    ### Self Hosted <small>(Loosely Coupled)</small>
+        
+    ![](../img/realtime-web-stack-integration-self-hosted.png)
+    
+    ???
+      
+    * Generally agreed that a loosely coupled architecture is going to be easier to change and maintain
+    * Your DB may even be message-queue-capable e.g. Redis.
+    * So you simply need to hook your realtime server into that
+    * Web App for HTTP
+    * Realtime for realtime functionality
+    * Scale-out realtime server in the same way as web server
+    
+    ---
+    
+    template: lblue
+    class: fill-img
+    
+    ### Hosted
+    
+    ![](../img/realtime-web-stack-integration-hosted.png)
+    
+    ???
+    
+    * Load-balancing connections
+    * Maintaining state of connections
+    * Synchronising data between nodes
+    * Mapping connections to users?
+    * Dedicated hosted service will offer :
+    * Make things easier and faster  
+    * Reduce scaling complexities
+    * Natural loose coupling via an API
+    * Where is your value?
+    * Features v Infrastructure
+    
+    ---
+    
+    template: lblue
+    class: block
+    
+    ## Shout-out to Hosted Services
+        
+    * Dropbox
+    * Fanout.io
+    * Firebase
+    * GDrive Realtime API
+    * Hydna
+    * Meteor
+    * PubNub
+    * Pusher
+    * Realtime.co
+    * Simperium
+    * Syncano
+    
+    ---
+    
+    template: lblue
+    
+    # You are just starting out
+        
+    * Architecture considerations
+    * Loose coupling
+    * Hosted?
+    * Go all-in with a "new breed of framework"
+    
+    ---
+    
+    template: lblue
+    
+    ### Realtime Framework
+        
+    * Meteor & hosted offering
+    * SailsJS
+    * SocketStream
+    
+    ### BaaS (Back-end as a Service)
+    
+    * Firebase
+    * Simperium
+    * Appbase.io??
+    * Syncano??
+    
+    See: http://nobackend.org/
+        
+    ???
+    
+    * A Framework where you can self-host
+    * Or hosted service: a BaaS where your can focus mainly on front-end functionality
+    * In both cases: Realtime is baked in
+    * In some cases even HTML templating will be baked in
+    * and those templates will auto-updated when you update data structures
+    * Will "Realtime" simply become an expected piece of functionality in the same way we expect to be able to persist data?
+    
+    ---
+    
+    template: dblue
+    
+    ## 5 Realtime Framework Considerations
+    
+    1. Use an Existing Solution
+    2. Use a language your confortable with
+    3. Do you need native mobile support?
+    4. onMessage, PubSub (Evented), RMI or DataSync
+    5. Where in development?
+
+    ---
+    
+    template: dblue
+    class: title, h1-big, pinkie-list
+    
+    * Phil @leggetter
+    * Head of Evangelism
+    * Pusher
+    
+  </textarea>
+  <script src="bower_components/remark/out/remark.js">
+  </script>
+  <script>
+  var slideshow = remark.create( {
+    navigation: {
+      scroll: false,
+    }
+  });
+  </script>
+</body>
+</html>

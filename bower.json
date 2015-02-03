@@ -1,0 +1,16 @@
+{
+  "name": "realtime-tech-stack",
+  "version": "0.0.0",
+  "authors": [
+    "leggetter <phil@leggetter.co.uk>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
