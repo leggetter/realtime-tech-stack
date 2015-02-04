@@ -61,56 +61,12 @@
     ???
     
     * No real time for detail
-    * But a bit of background
+    * But a few examples
     
     ---
     
     template: dblue
-    class: em-text, h1-big
-    background-image: url(img/warp-core.gif)
-    
-    # Hard Realtime
-    
-    ???
-    
-    * Real-time in Web Apps
-    * Different to realtime in other systems
-    * Not "hard" real-time
-    * e.g. USS Enterprise warp core safety system
-    
-    ---
-    
-    template: dblue
-    class: bg-contain
-    background-image: url(img/core-breach.gif)
-    
-    ???
-    
-    * Failure to deliver = critical
-    * Maybe the Enterprise was using a .NET solution
-    
-    ---
-    
-    layout: false
-    class: center, middle, em-text, bg-cover, h1-big
-    background-image: url(img/soft-realtime.gif)
-    
-    # Soft Realtime
-    
-    ???
-    
-    * Gone main stream - usage in social media
-    * Technology now provides benefit outside of finance
-    * Technology improvements
-      * Browsers
-      * Choice of solutions
-      * Easier to use solutions
-    * Quickly show some example use cases
-    
-    ---
-    
-    template: dblue
-    class: em-text, bg-cover
+    class: em-text, bg-cover, trans-h
     background-image: url(img/itv-news-may-2014.png)
     
     # Notifications & Signalling
@@ -123,7 +79,7 @@
     
     ---
     
-    class: center, bg-cover, em-text
+    class: center, bg-cover, em-text, trans-h
     background-image: url(/img/delighted-app.gif)
     
     # Activity Streams
@@ -143,7 +99,7 @@
     
     template: dblue
     
-    class: bg-contain, em-text
+    class: bg-cover, em-text, trans-h
     background-image: url(/img/senate-election-results.png)
     
     # Data Visualizations
@@ -151,8 +107,13 @@
     ---
     
     template: lblue
+    class: bg-video, trans-h, em-text
     
     # Chat
+    
+    <video id="video" autoplay="true" loop="true">
+      <source src="/img/pie.mp4" type="video/mp4">
+    </video>
     
     ???
     
@@ -163,30 +124,8 @@
     ---
     
     template: lblue
-    
-    # Second Screen Experiences
-    
-    ???
-    
-    * Sometimes called companion apps
-    * Watch TV with device
-    * Interact with others watching same thing
-    * Synchronised with content
-    
-    ---
-    
-    template: lblue
-    
-    # Live Geolocation Tracking
-    
-    ???
-    
-    * Where is stuff
-    * Realtime on a map
-    
-    ---
-    
-    template: lblue
+    class: trans-h
+    background-image: url(/img/sprintly.jpg)
     
     # Multi-User Collaboration
     
@@ -199,7 +138,7 @@
     ---
     
     template: lblue
-    class: bg-cover, pinkie
+    class: bg-cover, trans-h
     background-image: url(img/quizup.png)
     
     # Multiplayer Games
@@ -217,17 +156,10 @@
     ---
     
     template: lblue
-    class: h1-big
-    
-    # Use Socket.IO, right?
-    
-    ---
-    
-    template: lblue
-    class: bg-cover
+    class: h1-big, bg-cover
     background-image: url(/img/maybee.gif)
     
-    ## If it fits your requirements...
+    ## Use Socket.IO, right?
     
     ---
     
@@ -284,7 +216,8 @@
     ---
     
     template: dblue
-    class: h1-big
+    class: h1-big, trans-h, bg-contain
+    background-image: url(img/native-mobile.jpeg)
     
     # 3. Native Mobile Support?
     
@@ -305,14 +238,14 @@
 
     ## Solutions with Native Mobile Clients
     
-    * Faye
+    .left[* Faye
     * Firebase
     * Hydna
-    * PubNub
-    * Pusher
+    * PubNub]
+    .right[* Pusher
     * Realtime
     * SignalR
-    * Socket.IO
+    * Socket.IO]
     
     ---
     
@@ -329,9 +262,9 @@
     
     * Information Architecture a.k.a Data
     * Interaction Complexity:
-      * How users will interact with your app
+      * How users interact with your app
       * Client <-> Server interactions
-    * Understand the type of functionality you need...
+    * Understand the framework functionality you need...
     
     ???
     
@@ -497,25 +430,15 @@
     ---
     
     template: lblue
-    background-image: url(https://docs.google.com/drawings/d/1R-cj5G0VTsViIRACMFU6uZKJDr3rhyy1H1uO1OjvhX4/pub?w=1440&amp;h=1080)
+    background-image: url(img/rtw-tech-decision-matrix-apps.png)
     
     ???
-    
-    * ITV News - PubSub
-    * Man City - PubSub
-    * Google Analytics: Realtime - Data Sync
-    * Cloud 9 - Data Sync
-    * FourSquare
-    * Caplin Trader - PubSub
-    * Chat - JabbR - Uses RMI - feels like it should be PubSub
-    * Google Docs - Data Sync
-    * Murally - Uses PubSub - feels like it should be Data Sync
+
       
     ---
     
     template: lblue
-    background-image: url(https://docs.google.com/drawings/d/1iah1VmHezlPOW6tnNTf5HB_0GZl2LC09M5_7pRu_beM/pub?w=1440&amp;h=1080)
-
+    background-image: url(img/rtw-tech-decision-matrix-solutions.png)
 
     ???
       
@@ -546,11 +469,11 @@
     ---
     
     template: lblue
-    class: fill-img
+    class: bottom
+    background-image: url(/img/realtime-web-stack-tight-integration-self-hosted.png)
     
     ### Self Hosted <small>(Tightly Coupled)</small>
     
-    ![](./img/realtime-web-stack-tight-integration-self-hosted.png)
     
     ???
 
@@ -562,11 +485,10 @@
     ---
     
     template: lblue
-    class: fill-img
+    class: bottom
+    background-image: url(img/realtime-web-stack-integration-self-hosted.png)
     
     ### Self Hosted <small>(Loosely Coupled)</small>
-        
-    ![](../img/realtime-web-stack-integration-self-hosted.png)
     
     ???
       
@@ -606,17 +528,17 @@
     
     ## Shout-out to Hosted Services
         
-    * Dropbox
+    .left[* Dropbox
     * Fanout.io
     * Firebase
     * GDrive Realtime API
     * Hydna
-    * Meteor
-    * PubNub
+    * Meteor]
+    .right[* PubNub
     * Pusher
     * Realtime.co
     * Simperium
-    * Syncano
+    * Syncano]
     
     ---
     
@@ -643,8 +565,6 @@
     
     * Firebase
     * Simperium
-    * Appbase.io??
-    * Syncano??
     
     See: http://nobackend.org/
         

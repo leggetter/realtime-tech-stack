@@ -48,16 +48,56 @@ h1, h2, h3 {
   font-size: 45px;
 }
 
+.remark-slide .trans-h h1,
+.remark-slide .trans-h h2 {
+  background-color: black;
+  text-shadow:2px 2px 2px #000;
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.remark-slide .bg-video video {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+  z-index: 100;
+}
+
+.remark-slide .bg-video > h1,
+.remark-slide .bg-video > h2 {
+  position: relative;
+  z-index: 101;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.remark-slide .bottom h1,
+.remark-slide .bottom h2,
+.remark-slide .bottom h3 {
+  position: fixed;
+  bottom: 10px;
+  left: 30px;
+  text-align: left;
+}
+
 /* yellow: F8FA35 */
 
 .remark-slide .pinkie {
   color: #f4065f;
-  text-shadow:2px 2px 2px #FFFFFF;
+  /*text-shadow:2px 2px 2px #FFFFFF;*/
 }
 
 .remark-slide .pinkie-list ul {
   color: #f4065f;
-  text-shadow:2px 2px 2px #FFFFFF;
+  /*text-shadow:2px 2px 2px #FFFFFF;*/
   font-weight: bolder;
 }
 
